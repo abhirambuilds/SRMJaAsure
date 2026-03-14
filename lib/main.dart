@@ -7,9 +7,9 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'https://ifnaertbfklehuttrpzy.supabase.co',
+    url: '',
     anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlmbmFlcnRiZmtsZWh1dHRycHp5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzNzczNTksImV4cCI6MjA4Njk1MzM1OX0.QT-TqXX0Oe9BhOHGVbLJTd3QSEIx1GGcfN1qS8WgDzI',
+        '',
     authOptions: const FlutterAuthClientOptions(
       authFlowType: AuthFlowType.pkce,
       autoRefreshToken: true,
